@@ -8,7 +8,6 @@ import org.testng.annotations.*;
 public class TestRunner {
 
     protected WebDriver driver = null;
-    protected int az = 1;
 
     @BeforeSuite
     public void beforeSuite() {
